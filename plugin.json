@@ -1,0 +1,12 @@
+{
+    "ID": "1a2599af-9849-4cd6-8353-92460da0b15c",
+    "ActionKeyword": "tr",
+    "Name": "Youdao Translation",
+    "Description": "Youdao Translation plugin",
+    "Author": "Prslc",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/Prslc/Flow.translate-youdao",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}

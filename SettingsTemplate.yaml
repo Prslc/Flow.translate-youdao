@@ -1,0 +1,61 @@
+#$schema: https://www.flowlauncher.com/schemas/settings-template.schema.json
+
+body:
+  - type: input
+    attributes:
+      name: app_token
+      label: APP Token
+      description: Your Youdao API token
+
+  - type: input
+    attributes:
+      name: app_secret
+      label: APP Secret
+      description: Your Youdao API secret
+
+  - type: dropdown
+    attributes:
+      name: lang_from
+      label: Source Language
+      description: Language to translate from
+      defaultValue: Auto
+      options:
+        - Auto
+        - English
+        - Chinese (Simplified)
+        - Chinese (Traditional)
+        - Japanese
+        - Korean
+        - French
+        - German
+        - Spanish
+        - Russian
+        - Portuguese
+        - Italian
+        - Vietnamese
+        - Thai
+        - Indonesian
+        - Arabic
+
+  - type: dropdown
+    attributes:
+      name: lang_to
+      label: Target Language
+      description: Language to translate to
+      defaultValue: English
+      options:
+        - English
+        - Chinese (Simplified)
+        - Chinese (Traditional)
+        - Japanese
+        - Korean
+        - French
+        - German
+        - Spanish
+        - Russian
+        - Portuguese
+        - Italian
+        - Vietnamese
+        - Thai
+        - Indonesian
+        - Arabic
