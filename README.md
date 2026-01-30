@@ -4,7 +4,7 @@
 
 <img src="Images/app.png" alt="App Icon" width="150" height="150"><br>
 
-English | [Chinese](docs/README_CN.md)
+English | [Chinese](Docs/README_CN.md)
 
 </div>
 
