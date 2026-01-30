@@ -2,22 +2,22 @@ from enum import StrEnum
 
 
 class Lang(StrEnum):
-    AUTO = "AUTO"
-    EN = "EN"
-    ZH_CHS = "ZH_CHS"
-    ZH_CHT = "ZH_CHT"
-    JA = "JA"
-    KO = "KO"
-    FR = "FR"
-    DE = "DE"
-    ES = "ES"
-    RU = "RU"
-    PT = "PT"
-    IT = "IT"
-    VI = "VI"
-    TH = "TH"
-    ID = "ID"
-    AR = "AR"
+    AUTO = "auto"
+    EN = "en"
+    ZH_CHS = "zh-CHS"
+    ZH_CHT = "zh-CHT"
+    JA = "ja"
+    KO = "ko"
+    FR = "fr"
+    DE = "de"
+    ES = "es"
+    RU = "ru"
+    PT = "pt"
+    IT = "it"
+    VI = "vi"
+    TH = "th"
+    ID = "id"
+    AR = "ar"
 
 
 LANG_MAP = {
