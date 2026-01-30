@@ -2,7 +2,7 @@ import requests
 import uuid
 import time
 
-from utlis import encrypt, truncate
+from .utlis import encrypt, truncate
 
 YOUDAO_URL = 'https://openapi.youdao.com/api'
 
