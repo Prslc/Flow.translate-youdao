@@ -1,9 +1,11 @@
 import hashlib
 
+
 def encrypt(signStr):
     hash_algorithm = hashlib.sha256()
     hash_algorithm.update(signStr.encode('utf-8'))
     return hash_algorithm.hexdigest()
+
 
 def truncate(q):
     if q is None:
