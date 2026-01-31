@@ -58,4 +58,5 @@
 
 - **[FlowLauncher](https://github.com/Flow-Launcher/Flow.Launcher)** – 插件运行的平台，提供核心功能与集成。  
 - **[pyFlowLauncher](https://github.com/Garulf/pyFlowLauncher)** – Flow Launcher Python 插件框架，本插件使用其作为主要接口。  
-- **[DirectTranslate](https://github.com/Drimix20/Flow.Launcher.Plugin.DirectTranslate)** – 提供插件架构、交互设计和翻译工作流程的灵感。
+- **[Flow.Launcher.Plugin.DirectTranslate](https://github.com/Drimix20/Flow.Launcher.Plugin.DirectTranslate)** – 提供插件架构、交互设计和翻译工作流程的灵感。
+- **[Wox.Plugin.Youdao](https://github.com/pengzhxyz/Wox.Plugin.Youdao)** – Wox 的原始插件，为本插件的功能、工作流程和整体设计提供了参考。

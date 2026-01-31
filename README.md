@@ -4,7 +4,7 @@
 
 <img src="Images/app.png" alt="App Icon" width="150" height="150"><br>
 
-English | [Chinese](Docs/README_CN.md)
+English | [Chinese](docs/README_CN.md)
 
 </div>
 
@@ -58,4 +58,5 @@ This plugin allows you to quickly translate text from within Flow Launcher. It s
 
 - **[FlowLauncher](https://github.com/Flow-Launcher/Flow.Launcher)** – The core launcher platform that this plugin runs on and integrates with.  
 - **[pyFlowLauncher](https://github.com/Garulf/pyFlowLauncher)** – A Python framework for building Flow Launcher plugins, used as the main plugin API.  
-- **[DirectTranslate](https://github.com/Drimix20/Flow.Launcher.Plugin.DirectTranslate)** – Provided inspiration for plugin architecture, UX behavior, and translation workflow.
+- **[Flow.Launcher.Plugin.DirectTranslate](https://github.com/Drimix20/Flow.Launcher.Plugin.DirectTranslate)** – Provided inspiration for plugin architecture, UX behavior, and translation workflow.
+- **[Wox.Plugin.Youdao](https://github.com/pengzhxyz/Wox.Plugin.Youdao)** – Original plugin for Wox, which served as a reference for features, workflow, and overall concept.
