@@ -1,4 +1,5 @@
 from pyflowlauncher import Plugin, ResultResponse, send_results, Result
+from pyflowlauncher.api import copy_to_clipboard
 
 from .api import query_translate
 from .settings import TranslateSettings
@@ -23,10 +24,14 @@ def query(query: str) -> ResultResponse:
             IcoPath="Images/app.png"
         )])
 
-    result = query_translate(query, settings_instance.settings)
+    result_text = query_translate(query, settings_instance.settings)
+
+    if not result_text.strip():
+        result_text = "Translation failed or returned empty result"
+
     return send_results([Result(
-        Title=result,
+        Title=result_text,
         SubTitle="Press enter to copy",
         IcoPath="Images/app.png",
-        JsonRPCAction={"method": "copy_to_clipboard", "parameters": [result]}
+        JsonRPCAction=copy_to_clipboard(result_text) if result_text else None
     )])
